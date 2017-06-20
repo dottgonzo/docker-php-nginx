@@ -6,6 +6,7 @@ services:
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=my-secret-pw
+      - MYSQL_DATABASE=wordpress
     ports:
       - "31306:3306"
 
