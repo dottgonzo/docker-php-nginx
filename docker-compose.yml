@@ -12,7 +12,7 @@ services:
 
   wordpress:
     build: 
-      context: ./build
+      context: ./
     restart: always  
     links:
       - db:db
