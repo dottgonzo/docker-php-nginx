@@ -1,5 +1,5 @@
 FROM debian:stretch-slim
-MAINTAINER Dario Caruso <dev@dariocaruso.info>
+MAINTAINER Dario Caruso (dottgonzo) <dev@dariocaruso.info>
 RUN apt update
 RUN apt install nginx curl wget php-fpm php-mysql php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc nano mysql-client unzip -y
 WORKDIR /var/www/html
