@@ -2,6 +2,8 @@ server {
         listen 80 default_server;
         listen [::]:80 default_server ipv6only=on;
 
+        client_max_body_size 256M;
+
         root /var/www/html;
         index index.php index.html index.htm;
 
